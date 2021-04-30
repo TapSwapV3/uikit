@@ -2484,36 +2484,43 @@ var Icon$14 = function (props) {
         React__default['default'].createElement("path", { d: "M6 14.6302L8.32183 15.9883V20.6244L12.3154 22.9424V25.6585L6 21.9824V14.6302Z", fill: "#F0B90B" })));
 };
 
+// export type ConnectorNames =
+(function (ConnectorNames) {
+    ConnectorNames["Injected"] = "injected";
+    ConnectorNames["WalletConnect"] = "walletconnect";
+    ConnectorNames["BSC"] = "bsc";
+})(exports.ConnectorNames || (exports.ConnectorNames = {}));
+
 var connectors = [
     {
         title: "Metamask",
         icon: Icon$$,
-        connectorId: "injected",
+        connectorId: exports.ConnectorNames.Injected,
     },
     {
         title: "TrustWallet",
         icon: Icon$12,
-        connectorId: "injected",
+        connectorId: exports.ConnectorNames.Injected,
     },
     {
         title: "MathWallet",
         icon: Icon$10,
-        connectorId: "injected",
+        connectorId: exports.ConnectorNames.Injected,
     },
     {
         title: "TokenPocket",
         icon: Icon$11,
-        connectorId: "injected",
+        connectorId: exports.ConnectorNames.Injected,
     },
     {
         title: "WalletConnect",
         icon: Icon$13,
-        connectorId: "walletconnect",
+        connectorId: exports.ConnectorNames.WalletConnect,
     },
     {
         title: "Binance Chain Wallet",
         icon: Icon$14,
-        connectorId: "bsc",
+        connectorId: exports.ConnectorNames.BSC,
     },
 ];
 var localStorageKey = "accountStatus";
