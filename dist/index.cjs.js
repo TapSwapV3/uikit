@@ -3057,6 +3057,7 @@ exports.dark = darkTheme;
 exports.darkColors = darkColors;
 exports.light = lightTheme;
 exports.lightColors = lightColors;
+exports.localStorageKey = localStorageKey;
 exports.makeRender = makeRender;
 exports.menuConfig = links;
 exports.toastTypes = types;
