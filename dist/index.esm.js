@@ -1721,7 +1721,7 @@ var mediaQueries = {
     nav: "@media screen and (min-width: " + breakpointMap.lg + "px)",
 };
 var shadows = {
-    level1: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
+    level1: "rgb(20 1 8 / 15%) -2px 2px 4px inset, rgb(255 255 255) 2px -2px 4px inset",
     active: "0px 0px 0px 1px #0098A1, 0px 0px 4px 8px rgba(31, 199, 212, 0.4)",
     success: "0px 0px 0px 1px #31D0AA, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)",
     warning: "0px 0px 0px 1px #ED4B9E, 0px 0px 0px 4px rgba(237, 75, 158, 0.2)",
@@ -2964,10 +2964,10 @@ var brandColors = {
     binance: "#F0B90B",
 };
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#F5F0F1", secondary: "#D1004D", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#D1004D", borderColor: "#E9EAEB", card: "#F5F0F1", nav: "#D1004D", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
+        bubblegum: "linear-gradient(139.73deg, #F5F0F1 0%, #F5F0F1 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { primary: "#2A7EFF", secondary: "#ffe500", background: "#0F0F30", backgroundDisabled: "#424037", contrast: "#FFFFFF", invertedContrast: "#262513", input: "#483F5A", inputSecondary: "#8d8857", primaryDark: "#8f8104", tertiary: "#28444A", text: "#fcfae2", textDisabled: "#717161", textSubtle: "#ffffff", borderColor: "#61634b", card: "#191E45", nav: "#191E45", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+        bubblegum: "linear-gradient(139.73deg, #191E45 0%, #191E45 100%)",
     } });
 
 var light = {
@@ -2979,7 +2979,6 @@ var dark = {
 
 var light$1 = {
     background: lightColors.card,
-    // boxShadow: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
     boxShadow: "rgb(20 1 8 / 15%) -2px 2px 4px inset, rgb(255 255 255) 2px -2px 4px inset",
     boxShadowActive: shadows.active,
     boxShadowSuccess: shadows.success,

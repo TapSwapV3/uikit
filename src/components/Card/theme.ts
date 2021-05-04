@@ -4,7 +4,6 @@ import { CardTheme } from "./types";
 
 export const light: CardTheme = {
   background: lightColors.card,
-  // boxShadow: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
   boxShadow: "rgb(20 1 8 / 15%) -2px 2px 4px inset, rgb(255 255 255) 2px -2px 4px inset",
   boxShadowActive: shadows.active,
   boxShadowSuccess: shadows.success,
