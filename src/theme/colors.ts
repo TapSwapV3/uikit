@@ -40,7 +40,7 @@ export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
   secondary: "#ffe500", //  
-  background: "#1F2B46", //
+  background: "#0F0F30", //
   backgroundDisabled: "#424037", //
   contrast: "#FFFFFF",
   invertedContrast: "#262513",
@@ -50,10 +50,10 @@ export const darkColors: Colors = {
   tertiary: "#28444A", //
   text: "#fcfae2", //
   textDisabled: "#717161", //
-  textSubtle: "#d8ca06", //
+  textSubtle: "#ffffff", //
   borderColor: "#61634b",
-  card: "#121827", //
-  nav: "#121827", //
+  card: "#191E45", //
+  nav: "#191E45", //
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)", //
   },
