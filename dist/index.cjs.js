@@ -757,7 +757,7 @@ var ButtonMenuItem = function (_a) {
         return (React__default['default'].createElement(InactiveButton, __assign({ forwardedAs: as, variant: "tertiary", colorKey: variant === variants.PRIMARY ? "primary" : "textSubtle" }, props)));
     }
     console.log('-- ButtonMenuItem variant : ', variant);
-    return React__default['default'].createElement(Button, __assign({ as: as, variant: "secondary" }, props));
+    return React__default['default'].createElement(Button, __assign({ as: as, variant: "primary" }, props));
 };
 var templateObject_1$9;
 
