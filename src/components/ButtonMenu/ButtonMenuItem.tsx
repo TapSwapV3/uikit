@@ -34,7 +34,7 @@ const ButtonMenuItem: PolymorphicComponent<ButtonMenuItemProps, "button"> = ({
     );
   }
 console.log('-- ButtonMenuItem variant : ', variant)
-  return <Button as={as} variant={variant} {...props} />;
+  return <Button as={as} variant="secondary" {...props} />;
 };
 
 export default ButtonMenuItem;
